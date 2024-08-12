@@ -1,0 +1,113 @@
+/* GENERAL ============================== */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #444444;
+	margin: 0;
+	padding: 0;
+}
+
+strong {
+	font-weight: 700;
+}
+
+
+/* HEADERS ============================== */
+h1 {
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-transform: uppercase;
+	margin: 5px 0;
+}
+
+h2 {
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-weight: 400;
+	color: #555555;
+	position: relative;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* PARAGRAPH ============================ */
+p {
+	font-size: 15px;
+	line-height: 1.7;
+	margin: 14px 0;
+}
+
+/* CONTENT ============================== */
+.content{
+	width: 100%;
+	max-width: 1140px;
+	margin: auto;
+}
+
+/* BRAND ============================== */
+.brand{
+	float: left;
+	position: relative;
+}
+
+.logo-wrap{
+	display: inline-block;
+	border: 2px solid #5bdaff;
+	border-radius: 34px;
+}
+
+.logo{
+	width: 60px;
+	vertical-align: middle;
+}
+
+.name{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.name-impact{
+	color:#5bdaff;
+}
+
+.name-web{
+	color:#ffffff;
+}
+
+/* MENU ============================== */
+.menu{
+	font-family: 'lato', sans-serif;
+	text-transform: uppercase;
+	position: relative;
+	float: right;
+}
+
+.menu ul{
+	list-style-type: none;
+	padding: 1px;
+	margin: 0;
+}
+
+.menu li{
+	margin: 10px 1px;
+	float: left;
+}
+
+.menu a {
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
